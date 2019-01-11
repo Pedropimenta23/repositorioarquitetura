@@ -1,0 +1,284 @@
+{
+	"id": "107e952d-8ac3-4c75-9a43-5727416c8834",
+	"name": "AS",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"1fbe20f4-fbda-421f-807b-473a8d501bd7",
+		"0b26ab75-dd01-45fd-a06b-959096d34bba",
+		"2b7a05f8-3690-4745-82a2-7c1a42aaf445",
+		"f1c104e2-e819-471a-8313-ede36d01b801",
+		"549bbdf7-4c06-4956-aee6-15c3d20b03d5",
+		"8271b2dd-cf93-4f26-8743-0b7554bff42c",
+		"34f55bf0-b25e-4acf-9db7-3170cd0074a3",
+		"ce7592b7-c286-430f-8cbf-0ca758f59353",
+		"7912f997-00f6-4b42-b20d-c48ed4bb13d6",
+		"5ab80887-b987-494b-be47-3cacfe9de893",
+		"ac0cbed4-ba52-4218-ac69-af786693e0b5",
+		"c7ff0d9a-ea41-49b0-b643-85b5087a0c75"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "0b26ab75-dd01-45fd-a06b-959096d34bba",
+			"name": "localhost:5000/eventos",
+			"url": "localhost:5000/eventos",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "designacao",
+					"value": "fsdfs",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n        \"designacao\": \"EVENTO 2\",\n        \"local\":\"PT\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1fbe20f4-fbda-421f-807b-473a8d501bd7",
+			"name": "localhost:5000/eventos",
+			"url": "localhost:5000/eventos",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "2b7a05f8-3690-4745-82a2-7c1a42aaf445",
+			"name": "localhost:5000/eventos/5bf95de786ef893818cc2437",
+			"url": "localhost:5000/eventos/5bf95de786ef893818cc2437",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "34f55bf0-b25e-4acf-9db7-3170cd0074a3",
+			"name": "localhost:5000/eventos/5bf95de786ef893818cc2437/inscricoes",
+			"url": "localhost:5000/eventos/5bf95de786ef893818cc2437/inscricoes",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "549bbdf7-4c06-4956-aee6-15c3d20b03d5",
+			"name": "localhost:5000/eventos/5bf95e1686ef893818cc2439",
+			"url": "localhost:5000/eventos/5bf95e1686ef893818cc2439",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "5ab80887-b987-494b-be47-3cacfe9de893",
+			"name": "localhost:5000/inscricoes/5bef35b7d048883a84b8bd74",
+			"url": "localhost:5000/inscricoes/5bef35b7d048883a84b8bd74",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "7912f997-00f6-4b42-b20d-c48ed4bb13d6",
+			"name": "localhost:5000/inscricoes",
+			"url": "localhost:5000/inscricoes",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8271b2dd-cf93-4f26-8743-0b7554bff42c",
+			"name": "localhost:5000/eventos/5bf95de786ef893818cc2437/inscricoes/5bf95b9ea5d0f83e4c6a4daf",
+			"url": "localhost:5000/eventos/5bf95de786ef893818cc2437/inscricoes/5bf957634a48c503a033a3b6",
+			"description": "",
+			"data": [],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ac0cbed4-ba52-4218-ac69-af786693e0b5",
+			"name": "localhost:5000/inscricoes/5bef35b7d048883a84b8bd74",
+			"url": "localhost:5000/inscricoes/5bef35b7d048883a84b8bd74",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "nome",
+					"value": "c",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n    \"nome\": \"Cr\"\n}",
+			"headers": "Content-Type: application/json\n//nome: c\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c7ff0d9a-ea41-49b0-b643-85b5087a0c75",
+			"name": "localhost:5000/inscricoes/5bef35b7d048883a84b8bd74",
+			"url": "localhost:5000/inscricoes/5bef35b7d048883a84b8bd74",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "ce7592b7-c286-430f-8cbf-0ca758f59353",
+			"name": "localhost:5000/inscricoes",
+			"url": "localhost:5000/inscricoes",
+			"description": "",
+			"data": [
+				{
+					"key": "nome",
+					"value": "César",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f1c104e2-e819-471a-8313-ede36d01b801",
+			"name": "localhost:5000/eventos/5bf95de786ef893818cc2437",
+			"url": "localhost:5000/eventos/5bf95de786ef893818cc2437",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n        \"designacao\": \"EVENTOaaaaaaaa\",\n        \"local\":\"PT\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
